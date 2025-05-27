@@ -19,7 +19,7 @@
 - **HTML5** – struktur dasar website
 - **CSS3** – styling halaman dan tampilan responsif
 - **JavaScript (Vanilla)** – pengambilan data API, pencarian, dan manipulasi DOM
-- **API Manga** – mengambil data dari sumber online (misal: [Jikan API](https://jikan.moe))
+- **API Manga** – mengambil data dari sumber online (: [Jikan API](https://jikan.moe))
 
 ---
 
