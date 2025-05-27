@@ -42,14 +42,14 @@ cari.textContent = "Search";
 
 let manga = document.createElement("a");
 manga.href ='manga.html'
-manga.textContent = "manga";
+manga.textContent = "Manga";
 
 let kontak = document.createElement("a");
 kontak.target = '_blank'
 kontak.href = 'https://www.facebook.com/lorr.kazuma.10'
-kontak.textContent = "Owner";
+kontak.textContent = "Creater";
 
-// MEMASUKAN TULISAN HOMEPAGE , SEARCH , MANGA , OWNER KEDALAM UL
+// MEMASUKAN TULISAN HOMEPAGE , SEARCH , MANGA , Creater KEDALAM UL
 
 let ul = document.querySelector("ul");
 document.querySelector(".li1").appendChild(homepage);
