@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+  }
+
+  /* BAGIAN TERATAS */
+  nav {
+    background-color: rgb(11, 36, 71);
+    top: 0;
+    position: sticky;
+    font-family: montserrat;
+    height: 80px;
+    width: 100%;
+    z-index: 3;
+
+    > .coala {
+      /* LOGO koala */
+      > img {
+        margin-left: 40px;
+      }
+
+      >img:hover{
+        padding: 20px 10px 0px 10px;
+        box-shadow: 0px 0px 0px;
+      }
+
+    }
+
+
+      /* TULISAN HANIME */
+    > .hanime {
+      color: aliceblue;
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0px 50px 0px 0px;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+
+      >a{
+        >span{
+          font-style: italic;
+          color: #75C2F6;
+        }
+        >p {
+          display: inline-block;
+          margin: 0;
+          font-style: italic;
+          line-height: 1em;
+          font-weight: bold;
+          background: linear-gradient(to top, #75C2F6 40%, #FF0303 40%);
+          background-clip: padding-box;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+
+    /* TULISAN HOMEPAGE , SEARCH , MANGA  */
+    > ul {
+      float: right;
+      margin-right: 20px;
+  
+      > li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+        > a {
+          color: aliceblue;
+          padding: 7px 13px;
+          font-size: 17px;
+          border-radius: 3px;
+          text-transform: uppercase;
+          transition: all 0.5s;
+          cursor: pointer;
+        }
+        > a:hover {
+          text-decoration-line: underline;
+          color: #FF0303;
+        }
+      }
+    }
+
+    /* LOGO MENU SAAT TAMPILAN MENGECIL */
+    > .chek {
+      display: none;
+      font-size: 30px;
+      color: black;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+    }
+    > #cek {
+      display: none;
+    }
+  }
+
+  /* FOOTER ATAU BAGIAN TERBAWAH */
+  .foot {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 36, 71);
+    position: relative;
+    bottom: 0;
+    color: azure;
+    
+    /* TULISAN COPY RIGHT */
+    > .copy {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    /* PEMBUNGKUS DESKRIPSI DAN INFO */
+    > .informasi {
+      display: flex;
+      justify-content: space-around;
+      margin: 25px 20px;
+    }
+  }
+  .deskrip, .info{
+    text-align: justify;
+    width: 30%;
+  }
+
+  /* CLASS UNTUK GARIS HORIZONTAL */
+  .fot{
+    margin: 10px 0px 5px 0px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border: none;
+  }

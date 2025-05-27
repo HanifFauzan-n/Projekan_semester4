@@ -1,0 +1,146 @@
+
+/* PENGATURAN AGAR SCROLLBAR TIDAK KELIHATAN */
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+  /* MENGINPOR DARI LUAR FONT FAMILY ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+    cursor: default;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+    >main{
+        min-width: fit-content;
+        min-height: 500px;
+    }
+
+    /* TEMPAT FOTO MUSASHI MIYAMOTO */
+    >header{
+        width: 100%;
+        text-align: center;
+        >.manga{
+            display: inline-block;
+            margin-top: 15px;
+            width: 50%;
+            aspect-ratio: 5/3;
+            border-radius: 20px;
+        }
+
+    }
+
+    /* SETELAN BUAT SEARCHING */
+    >.search{
+        text-align: center;
+        >form{
+            >input{
+                padding-left: 30px;
+                margin: 20px;
+                border-radius: 50px;
+                width: 400px;
+                height: 50px;
+            }
+        }
+    }
+
+    /* SETELAN CSS UNTUK HASIL MANGA YANG DICARI */
+    >main{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: aliceblue;
+        >figure{
+            padding: 0;
+            margin: 0;
+            width: 33%;
+            height: 10%;
+            display: flex;
+            flex-direction: row;
+            border-top: 1px solid rgb(39, 40, 41);
+            border-left: 1px solid rgb(39, 40, 41);
+
+            /* TEMPAT PENGEDITAN TULISAN JUDUL DAN SYNOPSIS */
+            >.kotak2{
+                width: 50%;
+                aspect-ratio: 3/3;
+                border: 2px solid slategray;
+                overflow-x: auto;
+                overflow-y: auto;
+                margin: 10px 12px;
+
+                >h4{
+                    color: goldenrod;
+                    padding: 15px;
+                    text-align: center;
+                    display: inline-block;
+                    text-decoration: underline;
+                }
+                >p{
+                    padding: 15px;
+                    text-align: justify;
+                    display: inline-block;
+                    overflow-x: auto;
+                    overflow-y: auto;
+                }
+            }
+
+            /* TEMPAT PENGEDITAN UKURAN GAMBAR MANGA */
+            >.kotak1{
+                width: 50%;
+                aspect-ratio: 5/3;
+
+                >img{
+                    margin: 10px 12px;
+                    padding: 10px;
+                    width: 100%;
+                    aspect-ratio: 5/5;
+                    transition: all .4s;
+                }
+                >img:hover{
+                    border-radius: 10px;
+                    cursor: none;
+                    padding: 3px;
+                }
+            }
+
+        }
+    }
+}
+
+/* RESPONSIVE AGAR MENGECIL */
+@media only screen and (max-width: 1000px) {
+    body{
+        >header{
+            >h1{
+                display: none;
+            }
+        }
+        >main{
+            >figure{
+                width: 50%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 680px) {
+    body{
+        >.search{
+            >form{
+                >input{
+                    width: 250px;
+                    height: 40px;
+                }
+            }
+        }
+        >main{
+            >figure{
+                width: 100%;
+            }
+        }
+    }
+}

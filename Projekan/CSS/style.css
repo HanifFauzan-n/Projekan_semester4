@@ -1,0 +1,230 @@
+
+/* PENGATURAN AGAR SCROLLBAR TIDAK KELIHATAN */
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* MENGINPOR DARI LUAR FONT FAMILY ROBOTO */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+  
+  *{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* GARIS YANG ADA DI ATAS TULISAN UPCOMING ANIME */
+  hr{
+    margin: 23px 0px 5px 0px;
+    width: 70%;
+    height: 2px;
+    background-color: rgb(17, 0, 158);
+    border: none;
+  }
+  body {
+    scroll-behavior: smooth;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+
+    /* TEMPAT VIDEO SOLO LEVELING BERADA */
+    >header{
+      width: 90%;
+      >video{
+        margin-top: 50px;
+        margin-left: 30px;
+        width: 71%;
+        border-radius: 20px;
+      }
+
+      /* TULISAN SOLO LEVELING DAN NEXT WINTER */
+      >h3{
+        font-size: xx-large;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        text-shadow: 2px 2px 1px black;
+        color: rgba(225, 225, 225 ,0.8);
+        position: relative;
+        top: -100px;
+        left: 50px;
+        z-index: 0;
+      }
+    }
+    > main {
+
+      /* TULISAN TOP ANIME */
+      >.top1{
+        color: rgb(17, 0, 158);
+        height: 100%;
+        position: fixed;
+        top: 90px;
+        right: 0px;
+        >span{
+          margin-right: 75px;
+        }
+      }
+
+      /* SETELAN UKURAN POSTER TOP ANIME  */
+      > .top {
+        height: 80%;
+        position: fixed;
+        top: 147px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        border: 1px double black;
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+        > figure {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 10px;
+          color: rgb(6, 143, 255) ;
+          font-style: italic;
+
+          > figcaption {
+            width: 250px;
+            font-size: larger;
+            margin-bottom: 10px;
+          }
+
+          >a{
+            /* SETELAN UKURAN */
+            > img {
+              padding-left: 15px;
+              width: 180px;
+              aspect-ratio: 3/5;
+            }
+            > img:hover{
+              padding: 0;
+              box-shadow: 2px -4px 10px white;
+            }
+
+          }
+        }
+      }
+    }
+
+    /* TULISAN WATCH-TRAILER (BISA DI KLICK LOHH) */
+    .linkTrailer{
+      color: white;
+    }
+  
+
+    > main {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+      
+
+
+
+      /* SETELAN UKURAN POSTER NOW ANIME dan UPCOMING ANIME  */
+      > .now, .upcoming {
+        display: flex;
+        width: 70%;
+        height: 450px;
+        border: 1px solid black;
+        overflow-y: hidden;
+        overflow-x: scroll;
+  
+        > figure {
+          color: rgb(6, 143, 255) ;
+          padding: 10px;
+          gap: 10px;
+          >span{
+            display: block;
+          }
+          > figcaption {
+            text-align: center;
+            margin-top: 10px;
+          }
+          >a{
+            > img {
+              padding: 10px;
+              width: 180px;
+              aspect-ratio: 3/5;
+            }
+            >img:hover{
+              padding: 0px;
+              box-shadow: 2px -4px 10px white;
+
+            }
+          }
+        }
+      }
+
+
+      /* TULISAN TOP , NOW , UPCOMING , dan MOVIE ANIME */
+      > .random1,.now1,.top1 ,.upcoming1{
+        color: rgb(17, 0, 158);
+        padding: 10px;
+
+        >span{
+          padding: 5px 5px;
+          border-radius: 50px;
+          font-size: 30px;
+          background-color: whitesmoke;
+          transition: all .3s;
+        }
+
+        /* TULISAN SAAT DI FOCUSKAN */
+        >span:hover{
+          padding: 7px 7px;
+          border-radius: 50px;
+          font-size: 30px;
+          color: white;
+          background-color: maroon;
+          box-shadow: 2px 0px 5px white;
+        }
+      }
+
+
+      /* SETELAN UKURAN POSTER MOVIE ANIME  */
+      > .random {
+        display: flex;
+        width: 70%;
+        height: 475px;
+        border: 1px solid black;
+        overflow-y: hidden;
+        overflow-x: scroll;
+  
+        > figure {
+          color: rgb(6, 143, 255) ;
+          padding: 10px;
+          gap: 10px;
+          >span{
+            display: block;
+            font-size: small;
+          }
+          > figcaption {
+            text-align: center;
+            margin-top: 10px;
+          }
+          >a{
+            > img {
+              width: 180px;
+              padding: 10px;
+              aspect-ratio: 3/5;
+            }
+            >img:hover{
+              padding: 0px;
+              box-shadow: 2px -4px 10px white;
+            }
+          }
+        }
+      }
+    }
+  
+  }
+  
+  
+  
+  /* SAAT KOALA DIPEGANG (enggak mau di penggang koalanya) */
+  img:hover{
+    transition: all .8s;
+    padding: 0px;
+    
+  }
+  
