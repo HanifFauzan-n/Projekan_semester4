@@ -27,7 +27,7 @@
 
 > Berikut adalah struktur halaman:
 
-- **Header**: Judul situs
+- **Header**: HANIME (Hanif Anime)
 - **Search Bar**: Pencarian manga berdasarkan nama
 - **Gallery/List**: Hasil daftar manga dari API
 - **Card View**: Setiap manga ditampilkan dalam bentuk kartu berisi gambar + info
