@@ -1,6 +1,6 @@
-# 🌸 AnimeInfo Web
+# 🌸 Hanime (Hanif + web anime)
 
-**AnimeInfo Web** adalah proyek website sederhana yang dibuat menggunakan **HTML**, **CSS**, dan **JavaScript**, yang berfungsi sebagai platform informasi anime dan manga. Situs ini tidak menampilkan video streaming, melainkan fokus pada **penyajian data anime dan manga**, seperti judul, sinopsis, cover, dan detail lainnya.
+**Hanime Web** adalah proyek website sederhana yang dibuat menggunakan **HTML**, **CSS**, dan **JavaScript**, yang berfungsi sebagai platform informasi anime dan manga. Situs ini tidak menampilkan video streaming, melainkan fokus pada **penyajian data anime dan manga**, seperti judul, sinopsis, cover, dan detail lainnya.
 
 ---
 
